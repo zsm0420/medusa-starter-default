@@ -1,4 +1,6 @@
-export async function register() {
+export const register = async () => {
   if (process.env.NODE_ENV === 'production') {
   }
 }
+
+export default register
