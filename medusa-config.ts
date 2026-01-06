@@ -14,6 +14,6 @@ module.exports = defineConfig({
     }
   },
   admin: {
-    path: process.env.ADMIN_PATH || '/app',
+    path: `/${process.env.ADMIN_PATH || 'app'}`,
   },
 })
