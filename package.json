@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "build": "tsc --outDir dist --module commonjs --moduleResolution node --esModuleInterop --skipLibCheck medusa-config.ts && medusa build",
+    "build": "tsc --project tsconfig.json && medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
     "dev": "medusa develop",
