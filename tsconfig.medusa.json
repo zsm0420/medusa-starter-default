@@ -14,5 +14,11 @@
     "strictNullChecks": false
   },
   "include": ["medusa-config.ts"],
-  "exclude": ["node_modules", "storefront", "**/*.spec.ts", "**/*.test.ts"]
+  "exclude": [
+    "node_modules", 
+    "storefront", 
+    "**/*.spec.ts", 
+    "**/*.test.ts",
+    "src/scripts/**"
+  ]
 }
