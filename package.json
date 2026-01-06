@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "build": "tsc --project tsconfig.medusa.json && medusa build",
+    "build": "tsc --project tsconfig.medusa.json && medusa build:admin && medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "npx medusa db:migrate && medusa start",
     "dev": "medusa develop",
