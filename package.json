@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-    "build": "tsc --project tsconfig.medusa.json && medusa build:admin && medusa build",
+    "build": "tsc --project tsconfig.medusa.json && medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "npx medusa db:migrate && medusa start",
     "dev": "medusa develop",
@@ -22,7 +22,6 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@medusajs/admin-bundler": "2.12.3",
     "@medusajs/admin-sdk": "2.12.3",
     "@medusajs/cli": "2.12.3",
     "@medusajs/framework": "2.12.3",

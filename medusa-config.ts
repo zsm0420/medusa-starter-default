@@ -13,7 +13,4 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
   },
-  admin: {
-    path: `/${process.env.ADMIN_PATH || 'app'}`,
-  },
 })
