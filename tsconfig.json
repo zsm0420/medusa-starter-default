@@ -24,7 +24,9 @@
   },
   "include": [
     "**/*",
-    ".medusa/types/*"
+    ".medusa/types/*",
+    "instrumentation.ts",
+    "src/instrumentation.ts"
   ],
   "exclude": [
     "node_modules",
